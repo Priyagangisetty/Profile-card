@@ -1,0 +1,151 @@
+
+    *{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    }
+    body{
+    background-color: #f4f4f4;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    }
+    span{
+    font-size:20px;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    }
+    .name{
+    font-size: 30px;
+    }
+    .card{
+    background-color: blue;
+    width:150px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:3px;
+    }
+    img{
+    border-radius:50%;
+    width:120px;
+    height:120px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    }
+    .profile{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background-color:#fff;
+    border-radius:30px;
+    width:375px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+    }
+    .card{
+    content:"";
+    position:absolute;
+    height:30%;
+    width:100%;
+    background-color:blue;
+    top:0;
+    left:0;
+    border-radius: 30px 30px 0 0;
+    }
+    button{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:25px;
+    background-color:white;
+    border:none;
+    }
+    .btn{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    }
+    .profile .media{
+    display:flex;
+    align-items:center;
+    }
+    .media .link{
+    color:#fff;
+    text-decoration:none;
+    margin:0 8px;
+    background-color: blue;
+    height:34px;
+    width:34px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:23px;
+    }
+    .media .link img{
+    height:22px;
+    width:22px;
+    color:white;
+    }
+    .profile .extra {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+    margin-right:10px;
+    }
+    .extra img{
+    height:22px;
+    width:22px;
+    }
+    .extra span{
+    font-size:15px;
+    margin-right:10px;
+    padding:10px;
+    border-right:2px solid #e7e7e7;
+    }
+    .extra span:last-child{
+    border-right:none;
+    }
+    .round{
+        background-color: rgb(246, 246, 250);
+        border-radius:50%;
+        width:128px;
+        height:128px;
+        padding:5px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #snap{
+        color:black;
+        font-size: 25px;
+    }
+    #up{
+        position: absolute;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn button{
+        width:115px;
+        height:33px;
+        border-radius: 20px;
+        background-color: blue;
+        margin:5px;
+    }
+    .btn button a{
+        color:white;
+        text-decoration: none;
+        font-size: 15px;
+    }
